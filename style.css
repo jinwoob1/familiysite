@@ -47,7 +47,12 @@ body h2{
   color: #FFC107;
 
 }
-
+.border{
+  border-bottom: 10px gray double;
+}
+.jemok{
+  text-align: center;
+}
 #line{
 
   border-top:10px #009688 solid;

@@ -4,12 +4,24 @@
     <meta charset="utf-8">
     <title>Family-Home</title>
     <link rel="stylesheet" href="style.css">
+    <style >
+      @media query(max-width:800px) {
+        .topmenu{
+
+        }
+      }
+    </style>
   </head>
+
+
   <body id="body"style="
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0px;">
+    <div class="topmenu">
+
+    </div>
       <div id="login"><h4>로그인하기</h4></div>
       <h1><a href="project.html" style="text-decoration:none"style="text-color:black">우리가족의 웹사이트</a></h1>
     <div id="top">
@@ -19,10 +31,14 @@
         <h2><a href="service4.html" style="text-decoration:none"style="text-color:black" >박지원</a></h2>
         <span><h2><a href="service5.html" style="text-decoration:none"style="text-color:black" ><strong>재미</strong>(beta) </div></a></h2>
     </span></div>
-    <h3>
+    <!-- pop up 창 띄우기-->
+    <body onload="window.open('popup.html','','width=400px, height=570px, left=10px, top=10px, toolbar=0, status=yes, menubars=0, scrollbars=0, resizable=0, location=0, directories=0')">
+
+  <h3>
       안녕하세요,<br>
       이곳은 진우네 가족의 홈페이지 입니다..<br>
     </h3>
+    <div class="border">
     <div id="image"><img src="projecting.jpg"width="100%" ></div>
    <div align="center"><img src="mainfun.png" height="200px" style="padding-left:150px" >
       <!--div style="background-color:pink;"> <p><br>재미는 재미있는 동영상을 제공함으로써,<br>
@@ -40,7 +56,24 @@
         <br> 감사합니다.</div>
         <div style="text-align:right;background-color:pink"><br>-웹페이지 제작진 일동-</div>
 -->
-<a href="service5.html"><img src="Play.png" ></a></div>
+<a href="service5.html"><img src="Play.png"></a></div>
+
+</div>
+<!--
+<div class="border">
+  <div class="jemok">
+    <h3>이벤트!!</h3>
+  </div>
+</div>
+
+<div class="border">
+  <div class="jemok">
+    <h3>댓글</h3>
+  </div>
+  여러분의 의견사항을 댓글로 남겨주세요!!!
+</div>
+
+</div>-->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
