@@ -100,6 +100,11 @@ body h2{
   display: grid;
   grid-template-columns:1fr ;
 }
+#today-date
+{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 ( background-image: url("title.jpg");
   background-position: center center;
   background-repeat: no-repeat;)
